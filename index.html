@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Left side of the web page -->
+    <div class="image-section">
+        <div class="transparent-bg">
+            <img class="logo" src="images/odin-lined.png" alt="">
+            <span>ODIN</span>
+        </div>
+
+    </div>
+
+    <!-- Right side of Web Page -->
+    <div class="forms-section">
+        <div class="info">
+            <p>This is not a real online service! You know you need something like this in your life to help you realize
+                your deepest dreams. Sign up now to get started.</p>
+            <p>You know you want to.</p>
+        </div>
+
+        <form action="#">
+            <div class="form">
+                <div class="inputs">
+                    <label for="fname">First Name</label><br>
+                    <input type="text" id="fname" required>
+                </div>
+
+                <div class="inputs">
+                    <label for="lname">Last Name</label><br>
+                    <input type="text" id="lname" required>
+                </div>
+
+
+
+                <div class="inputs">
+                    <label for="email">Email</label><br>
+                    <input type="email" name="email" id="email" required>
+                </div>
+
+                <div class="inputs">
+                    <label for="phone">Phone Number</label><br>
+                    <input type="tel" name="phone" id="phone" pattern="[1-9]{10}" required>
+                </div>
+
+
+
+                <div class="inputs">
+                    <label for="password">Password</label><br>
+                    <input type="password" name="password" id="password" minlength="5" maxlength="20" required>
+                </div>
+
+                <div class="inputs">
+                    <label for="confirm">Confirm Password</label><br>
+                    <input type="password" name="confirm" id="confirm" required>
+                </div>
+
+
+            </div>
+            <div class="account">
+                <button type="submit">Create Account</button>
+                <p>Already have an Account? <a href="">Log in</a></p>
+            </div>
+        </form>
+
+
+
+    </div>
+
+</body>
+
+</html>

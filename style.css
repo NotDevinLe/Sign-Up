@@ -1,0 +1,141 @@
+@font-face {
+    font-family: odin;
+    src: url(Fonts/Norse-Bold.otf);
+}
+
+body {
+    display: flex;
+    justify-content: space-between;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    background-color: rgb(248, 248, 248);
+}
+
+input {
+    border: solid rgb(233, 233, 233);
+    border-radius: 5px;
+    border-width: 1px;
+    height: 30px;
+    width: 300px;
+}
+
+input:focus {
+    outline: none;
+    border: solid 2px;
+    border-color: rgb(25, 98, 208);
+    box-shadow: 2px 5px 5px lightgrey;
+}
+
+
+/* Left side */
+
+.image-section {
+    background: no-repeat url(images/halie-west-25xggax4bSA-unsplash.jpg);
+    background-size: cover;
+    flex-grow: 1;
+    flex-shrink: 0;
+    min-width: 40%;
+}
+
+.transparent-bg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 20%;
+    background-color: rgba(0, 0, 0, 0.592);
+    max-height: 200px;
+    color: white;
+}
+
+.logo {
+    height: 10rem;
+}
+
+.transparent-bg span {
+    font-family: 'odin';
+    font-size: 100px;
+}
+
+/* Right side */
+
+.forms-section {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    justify-content: space-evenly;
+}
+
+.info {
+    font-family: 'Roboto';
+    font-weight: bold;
+    font-size: 22px;
+    padding-left: 3%;
+    padding-right: 20%;
+}
+
+form {
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.form {
+    background-color: white;
+    box-shadow: 10px 5px 5px lightgrey;
+    padding-left: 3%;
+    height: 100%;
+    gap: 10%;
+
+
+    display: flex;
+    align-items: center;
+
+    font-family: 'Roboto';
+    flex-wrap: wrap;
+    overflow: auto;
+    flex-grow: 1;
+}
+
+form label {
+    font-size: 13px;
+    font-weight: bold;
+    color: rgb(101, 101, 101);
+}
+
+.account {
+    padding-left: 3%;
+    font-family: 'Roboto';
+    margin-top: 5%;
+}
+
+.account button {
+    background-color: #596D48;
+    border: none;
+    border-radius: 10px;
+    height: 50px;
+    width: 200px;
+
+    font-weight: bolder;
+    font-size: 17px;
+    color: white;
+    box-shadow: 5px 5px 5px lightgrey;
+}
+
+.account button:hover {
+    cursor: pointer;
+    background-color: #3b492e;
+}
+
+
+.account a {
+    color: #596D48;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.account a:hover {
+    color: #3b492e;
+}
